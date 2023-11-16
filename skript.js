@@ -7,7 +7,6 @@ var clientAge = prompt("Iveskite savo amziu")
 if(clientAge >= legalAge){
     alert("Klientas pasiekes " + legalAge)
 } else{
-    var age = confirm(legalAge < clientAge)
     alert("Palaukite dar: "  +(legalAge - clientAge) + " metu(s).")
 }
 
