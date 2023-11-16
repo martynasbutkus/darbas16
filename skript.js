@@ -14,9 +14,9 @@ if(clientAge >= legalAge){
 
 
 //Antra uzduotis
-var vardas = 'Martynas'
+var fname = 'Martynas'
 
-if(vardas.length > 6 ){
+if(fname.length > 6 ){
     alert("Vardas per ilgas")
 }
 
